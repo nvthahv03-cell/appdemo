@@ -80,40 +80,59 @@
       </div>
     </div>
 
-    <!-- 2. BA PHÍM TÁC VỤ NHANH (Shortcut style, icon lớn hơn, tăng vùng bấm, chữ trắng đậm) -->
-    <div class="grid grid-cols-3 gap-3 mb-4 relative z-10">
-      
-      <!-- Shortcut 1: Lịch công tác -->
-      <div class="glass-glow-blue rounded-2xl p-3.5 flex flex-col items-center justify-center text-center relative shortcut-hover cursor-pointer active:scale-95">
-        <span class="absolute top-2.5 right-2.5 w-2.5 h-2.5 bg-emerald-400 rounded-full border border-slate-900 shadow-sm"></span>
-        <div class="w-11 h-11 text-blue-300 text-2xl flex items-center justify-center mb-1.5 bg-blue-500/10 rounded-xl border border-blue-400/20">
-          <i class="fa-solid fa-calendar-days"></i>
-        </div>
-        <span class="font-bold text-xs uppercase leading-tight mb-1.5 text-white tracking-wide">Lịch Công Tác</span>
-        <span class="text-[10px] text-blue-200 font-medium bg-blue-900/80 border border-blue-700/50 px-2 py-0.5 rounded-full">Hôm nay: <b class="text-emerald-400 font-bold">3</b></span>
-      </div>
+    <!-- 2. BA PHÍM TÁC VỤ NHANH (Shortcut style) -->
+<div class="grid grid-cols-3 gap-3 mb-4 relative z-10">
 
-      <!-- Shortcut 2: Văn bản - Biểu mẫu -->
-      <div class="glass-glow-blue rounded-2xl p-3.5 flex flex-col items-center justify-center text-center relative shortcut-hover cursor-pointer active:scale-95">
-        <span class="absolute -top-1 -right-1 bg-red-500 text-white font-extrabold text-[10px] w-5 h-5 rounded-full flex items-center justify-center border-2 border-slate-950 shadow-md">2</span>
-        <div class="w-11 h-11 text-blue-300 text-2xl flex items-center justify-center mb-1.5 bg-blue-500/10 rounded-xl border border-blue-400/20">
-          <i class="fa-solid fa-file-lines"></i>
-        </div>
-        <span class="font-bold text-xs uppercase leading-tight mb-1.5 text-white tracking-wide">Văn Bản Biểu Mẫu</span>
-        <span class="text-[10px] text-blue-200 font-medium bg-blue-900/80 border border-blue-700/50 px-2 py-0.5 rounded-full"><b class="text-red-400 font-bold">2</b> chưa đọc</span>
-      </div>
+  <!-- Shortcut 1: Lịch công tác -->
+  <div class="glass-glow-blue rounded-2xl p-4 flex flex-col items-center justify-center text-center relative shortcut-hover cursor-pointer active:scale-95">
 
-      <!-- Shortcut 3: Thông tin - Thông báo -->
-      <div class="glass-glow-blue rounded-2xl p-3.5 flex flex-col items-center justify-center text-center relative shortcut-hover cursor-pointer active:scale-95">
-        <span class="absolute -top-1 -right-1 bg-amber-500 text-white font-extrabold text-[10px] w-5 h-5 rounded-full flex items-center justify-center border-2 border-slate-950 shadow-md">5</span>
-        <div class="w-11 h-11 text-blue-300 text-2xl flex items-center justify-center mb-1.5 bg-blue-500/10 rounded-xl border border-blue-400/20">
-          <i class="fa-solid fa-bullhorn"></i>
-        </div>
-        <span class="font-bold text-xs uppercase leading-tight mb-1.5 text-white tracking-wide">Thông Tin Thông Báo</span>
-        <span class="text-[10px] text-blue-200 font-medium bg-blue-900/80 border border-blue-700/50 px-2 py-0.5 rounded-full"><b class="text-amber-400 font-bold">5</b> tin mới</span>
-      </div>
+    <span class="absolute top-2.5 right-2.5 w-3 h-3 bg-emerald-400 rounded-full border-2 border-slate-900 shadow-sm"></span>
 
+    <div class="w-16 h-16 text-blue-300 text-4xl flex items-center justify-center mb-3 bg-blue-500/10 rounded-2xl border border-blue-400/20">
+      <i class="fa-solid fa-calendar-days"></i>
     </div>
+
+    <span class="font-bold text-sm uppercase leading-tight text-white tracking-wide">
+      LỊCH CÔNG TÁC
+    </span>
+
+  </div>
+
+  <!-- Shortcut 2: Văn bản - Biểu mẫu -->
+  <div class="glass-glow-blue rounded-2xl p-4 flex flex-col items-center justify-center text-center relative shortcut-hover cursor-pointer active:scale-95">
+
+    <span class="absolute -top-1 -right-1 bg-red-500 text-white font-extrabold text-xs w-6 h-6 rounded-full flex items-center justify-center border-2 border-slate-950 shadow-md">
+      2
+    </span>
+
+    <div class="w-16 h-16 text-blue-300 text-4xl flex items-center justify-center mb-3 bg-blue-500/10 rounded-2xl border border-blue-400/20">
+      <i class="fa-solid fa-file-lines"></i>
+    </div>
+
+    <span class="font-bold text-sm uppercase leading-tight text-white tracking-wide">
+      VĂN BẢN BIỂU MẪU
+    </span>
+
+  </div>
+
+  <!-- Shortcut 3: Thông tin - Thông báo -->
+  <div class="glass-glow-blue rounded-2xl p-4 flex flex-col items-center justify-center text-center relative shortcut-hover cursor-pointer active:scale-95">
+
+    <span class="absolute -top-1 -right-1 bg-amber-500 text-white font-extrabold text-xs w-6 h-6 rounded-full flex items-center justify-center border-2 border-slate-950 shadow-md">
+      5
+    </span>
+
+    <div class="w-16 h-16 text-blue-300 text-4xl flex items-center justify-center mb-3 bg-blue-500/10 rounded-2xl border border-blue-400/20">
+      <i class="fa-solid fa-bullhorn"></i>
+    </div>
+
+    <span class="font-bold text-sm uppercase leading-tight text-white tracking-wide">
+      THÔNG TIN THÔNG BÁO
+    </span>
+
+  </div>
+
+</div>
 
     <!-- 3. THÔNG TIN MỚI NHẤT (Giảm chiều cao, tiêu đề nổi bật, bố cục gọn) -->
     <div class="bg-gradient-to-r from-blue-950/90 via-slate-900/90 to-blue-950/90 border border-blue-700/40 rounded-2xl p-3 mb-4 flex items-center gap-3 relative z-10 cursor-pointer hover:border-blue-500/60 transition shadow-md">
