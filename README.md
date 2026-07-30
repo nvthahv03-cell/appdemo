@@ -92,7 +92,7 @@
       
       <!-- Icon chính -->
       <div class="relative z-10">
-        <i class="fa-solid fa-calendar-days text-[42px] sm:text-[48px] text-blue-100"
+        <i class="fa-solid fa-calendar-days text-[56px] sm:text-[64px] text-blue-100"
            style="text-shadow: 
              0 1px 0 #93c5fd,
              0 2px 0 #60a5fa,
