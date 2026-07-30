@@ -117,7 +117,7 @@
     <div class="relative w-full aspect-square max-w-[110px] rounded-2xl bg-gradient-to-b from-[#1e3a8a]/80 to-[#0f172a]/90 border border-blue-400/40 shadow-[0_0_25px_rgba(59,130,246,0.45),inset_0_1px_0_rgba(147,197,253,0.25)] flex items-center justify-center mb-3 overflow-hidden">
       <div class="absolute inset-x-0 top-0 h-1/2 bg-gradient-to-b from-white/10 to-transparent pointer-events-none"></div>
       
-      <i class="fa-solid fa-file-lines text-[42px] sm:text-[48px] text-blue-100 relative z-10"
+      <i class="fa-solid fa-file-lines text-[56px] sm:text-[64px] text-blue-100 relative z-10"
          style="text-shadow: 
            0 1px 0 #93c5fd,
            0 2px 0 #60a5fa,
@@ -138,7 +138,7 @@
       <div class="absolute inset-x-0 top-0 h-1/2 bg-gradient-to-b from-white/10 to-transparent pointer-events-none"></div>
       
       <div class="relative z-10">
-        <i class="fa-solid fa-bullhorn text-[42px] sm:text-[48px] text-blue-100"
+        <i class="fa-solid fa-bullhorn text-[56px] sm:text-[64px] text-blue-100"
            style="text-shadow: 
              0 1px 0 #93c5fd,
              0 2px 0 #60a5fa,
